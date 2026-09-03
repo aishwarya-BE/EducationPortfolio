@@ -1,0 +1,22 @@
+.content{
+    text-align:center;
+    color:black;
+}
+
+.content h1{
+    font-size: 52px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+
+
+body{
+    background-image: url(".//travel.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    background-position: center;
+    background-attachment: fixed;
+}

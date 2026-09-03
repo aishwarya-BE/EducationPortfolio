@@ -1,0 +1,16 @@
+table{
+    width:400px;
+}
+
+th, td{
+    text-align: center;
+}
+
+th{
+    background-color: blue;
+}
+
+.total {
+    background-color: rgb(200, 200, 21);
+    color: rgb(44, 28, 28);
+}
