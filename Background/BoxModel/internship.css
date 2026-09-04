@@ -26,130 +26,91 @@ body {
 
 header {
     display: block;
-
     text-align: center;
-
     padding: 25px;
-
     background-color: rgba(0, 0, 0, 0.7);
-
     box-shadow: 0 4px 10px black;
 }
 
 
 header h1 {
     font-family: Georgia, serif;
-
     font-weight: bold;
-
     margin: 15px 0;
 }
 
 
-/* INLINE-BLOCK */
-
 header > a {
     display: inline-block;
-
     color: white;
-
     margin-bottom: 10px;
 }
 
 
-/* INLINE-BLOCK */
+
 
 nav a {
     display: inline-block;
-
     margin: 5px;
-
     padding: 10px 15px;
-
     border: 1px solid white;
-
     color: white;
-
     text-decoration: none;
 }
 
 
 nav a:hover {
     background-color: white;
-
     color: black;
 }
 
 
-/* BLOCK */
+
 
 .container {
     display: block;
-
     width: 80%;
-
     min-width: 300px;
     max-width: 1000px;
-
     min-height: 500px;
-
     margin: 40px auto;
-
     padding: 30px;
-
     border: 2px solid white;
-
     background-color: rgba(0, 0, 0, 0.7);
-
     border-radius: 10px;
-
     box-shadow: 0 0 15px black;
 }
 
 
 .container > h2 {
     font-family: Georgia, serif;
-
     font-weight: bold;
-
     text-align: center;
-
     margin-bottom: 25px;
 }
 
 
-/* BLOCK + OVERFLOW */
+
 
 .card {
     display: block;
-
     width: 90%;
-
     min-width: 250px;
     max-width: 850px;
-
     min-height: 150px;
     max-height: 500px;
-
     margin: 25px auto;
-
     padding: 25px;
-
     border: 2px solid white;
-
     background-color: rgba(255, 255, 255, 0.12);
-
     border-radius: 10px;
-
     box-shadow: 0 0 10px black;
-
     overflow: auto;
 }
 
 
 .card h3 {
     font-weight: bold;
-
     margin-bottom: 15px;
 }
 
@@ -161,21 +122,16 @@ nav a:hover {
 
 .card p {
     margin: 10px 0;
-
     line-height: 1.6;
 }
 
 
 .card li {
     display: block;
-
     margin: 8px;
-
     font-weight: bold;
 }
 
-
-/* VISIBILITY */
 
 .hidden {
     visibility: hidden;
@@ -184,14 +140,9 @@ nav a:hover {
 
 footer {
     display: block;
-
     text-align: center;
-
     padding: 20px;
-
     margin-top: 30px;
-
     background-color: rgba(0, 0, 0, 0.7);
-
     box-shadow: 0 -4px 10px black;
 }
