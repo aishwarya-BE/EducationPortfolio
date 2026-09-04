@@ -101,7 +101,24 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
 
+.back-icon:hover {
+    color: lightgray;
+}
+
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
 
 table {
     width: 100%;

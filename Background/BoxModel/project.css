@@ -54,6 +54,12 @@ nav a:hover {
     color: black;
 }
 
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 
 .container {
     display: block;
